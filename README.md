@@ -11,12 +11,31 @@ Everything has a spirit, and human beings and plants coexist and affect each oth
 
 
 
+
+
+
+
+
+
+
+
+
+
 主要功能
 AR体验：1.通过后置摄像头可以在手机屏幕上选择植物，点击并摆放所选择的植物。你可以打造属于自己的植物花园。选择点击植物，将会出现独属于这一个植物的声音。你可以戴上耳机，穿梭于你所种植的未来植物之间，在手机屏幕上触碰它们，倾听它们不同的种类和空间方位的声音所奏响的乐章。2.通过前置摄像头，佩戴虚拟面饰，模拟想象中不同种类植物对人类的美学改造。
 
 AR experience: 1. Through the rear camera, you can select the plants on the mobile phone screen, click and place the selected plants. You can build your own plant garden. Select and click on the plant, and the sound of this plant will appear. You can put on headphones, shuttle between the future plants you plant, touch them on the mobile phone screen, and listen to the movements played by their different types and spatial directions. 2. Through the front camera and wearing a virtual face, it simulates the aesthetic transformation of different kinds of plants in the imagination of human beings.
 
 <img width="583" alt="1713877900639" src="https://github.com/jinZhiyi00/Fulture-Plants/assets/163079470/d106c93c-7882-4ae3-a251-781ec9ae43ce">
+
+
+
+
+
+
+
+
+
 
 
 
@@ -31,9 +50,29 @@ Modeling and mapping: Blender Game Engine: Unity (URP Pipeline) Image Plastic Au
 
 
 
+
+
+
+
+
+
+
+
+
+
 功能亮点
 快速平面检测 场景环境映射 面部识别 音频播放
 Fast plane detection, scene environment mapping, facial recognition
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -47,7 +86,18 @@ Fast plane detection, scene environment mapping, facial recognition
 跟踪手势识别，实现单击，拖动，双击，长按
 给模型创建材质，调整 Scale，添加 Collider，创建 Prefab
 ![微信图片_20240423213203](https://github.com/jinZhiyi00/Fulture-Plants/assets/163079470/93f4648a-1d7b-42b1-b504-c2ee237dfa0f)
-创建空物体，添加 AudioSource，编写代码，根据交互切换 AudioClip 作为音源
+创建空物体，添加Button，添加 AudioSource，编写代码，
+![357b8048a7f2561dd182fa82a0e2116](https://github.com/jinZhiyi00/Fulture-Plants/assets/163079470/262e973e-fd4d-46c7-a17f-c236bfe7a6de)
+
+
+新建脚本ButtonListrner
+![d9f7f75b1fc3098198e4175e7cd4c15](https://github.com/jinZhiyi00/Fulture-Plants/assets/163079470/d0d2b201-7932-4a7b-8112-a0e6ac055abc)
+
+将脚本挂在Button上
+![6d930284069a7082a8e5e6b1318d18b](https://github.com/jinZhiyi00/Fulture-Plants/assets/163079470/36afb494-7a4f-4a08-a056-53161302d349)
+
+
+根据交互切换 AudioClip 作为音源
 
 Add ARKit plug-in, set AR Session and Target, and achieve plane recognition
 Create Prefab for the plane and add Collider
@@ -62,11 +112,27 @@ Create empty objects, add AudioSource, write code, and switch AudioClip as the s
 
 
 
+
+
+
+
+
+
+
 UI
 添加下滑栏，设置单个项目对应的模型
 添加 Reset，一键清空场景
 Add a slide bar and set the model corresponding to a single project.
 Add Reset and clear the scene with one click.
+
+
+
+
+
+
+
+
+
 
 
 
@@ -90,6 +156,19 @@ Click Reset to clear the current scene.
 
 
 
+识别人脸，选择特效。张嘴触发特效，挥手关闭特效
+Recognize faces and select special effects. Open your mouth to trigger the effect, wave your hand to turn it off.
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -103,6 +182,17 @@ Click Reset to clear the current scene.
 <img width="989" alt="1713879305393" src="https://github.com/jinZhiyi00/Fulture-Plants/assets/163079470/9095ef71-6699-46af-a5d2-beafe535f2de">
 
 ![Uploading 1713879305393.png…]()
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -128,6 +218,16 @@ On the other hand, if there is time, this is a derivative small project. The fro
 
 
 
+
+
+
+
+
+
+
+
+
+
 项目未来发展
 1植物建模的多元化趣味化，希望发展成一个未来植物库，为搭建植物沙盘带来更多选择。同时丰富同一种植物的不同形态，使其有着如同现实植物般的生长过程。
 2拓展曲库，增加植物的音效类型用来丰富植物乐器的种类
@@ -144,5 +244,19 @@ On the other hand, if there is time, this is a derivative small project. The fro
 4 Rich UI design makes the interface more personalized
 
 5 AR virtual face decoration adds animation and gesture interaction effect
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
  
