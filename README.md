@@ -31,6 +31,7 @@ AR experience: 1. Through the rear camera, you can select the plants on the mobi
 
 
 
+![f07d4b28f40e8d49015c170f5ad6c5c](https://github.com/jinZhiyi00/Fulture-Plants/assets/163079470/ea3e5abd-f52a-4a93-b5b5-d73f81075c6e)
 
 
 
@@ -85,16 +86,30 @@ Fast plane detection, scene environment mapping, facial recognition
 给平面创建 Prefab，添加 Collider
 跟踪手势识别，实现单击，拖动，双击，长按
 给模型创建材质，调整 Scale，添加 Collider，创建 Prefab
+
+
+
+
 ![微信图片_20240423213203](https://github.com/jinZhiyi00/Fulture-Plants/assets/163079470/93f4648a-1d7b-42b1-b504-c2ee237dfa0f)
+
+
+
+
 创建空物体，添加Button，添加 AudioSource，编写代码，
 ![357b8048a7f2561dd182fa82a0e2116](https://github.com/jinZhiyi00/Fulture-Plants/assets/163079470/262e973e-fd4d-46c7-a17f-c236bfe7a6de)
+
+
 
 
 新建脚本ButtonListrner
 ![d9f7f75b1fc3098198e4175e7cd4c15](https://github.com/jinZhiyi00/Fulture-Plants/assets/163079470/d0d2b201-7932-4a7b-8112-a0e6ac055abc)
 
+
+
+
 将脚本挂在Button上
 ![6d930284069a7082a8e5e6b1318d18b](https://github.com/jinZhiyi00/Fulture-Plants/assets/163079470/36afb494-7a4f-4a08-a056-53161302d349)
+
 
 
 根据交互切换 AudioClip 作为音源
