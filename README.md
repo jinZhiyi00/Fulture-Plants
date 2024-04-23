@@ -38,19 +38,42 @@ Fast plane detection, scene environment mapping, facial recognition
 
 
 
+
+
+
 它是如何工作的
 添加ARKit 插件 ，设置 AR Session 和 Target，实现平面识别
 给平面创建 Prefab，添加 Collider
 跟踪手势识别，实现单击，拖动，双击，长按
 给模型创建材质，调整 Scale，添加 Collider，创建 Prefab
-![Uploading 1256110b068f8099fd09006faba980a.png…]()
-
+![微信图片_20240423213203](https://github.com/jinZhiyi00/Fulture-Plants/assets/163079470/93f4648a-1d7b-42b1-b504-c2ee237dfa0f)
 创建空物体，添加 AudioSource，编写代码，根据交互切换 AudioClip 作为音源
+
+Add ARKit plug-in, set AR Session and Target, and achieve plane recognition
+Create Prefab for the plane and add Collider
+Track gesture recognition to achieve click, drag, double-click, long press
+Create materials for the model, adjust Scale, add Collider, and create Prefab
+Create empty objects, add AudioSource, write code, and switch AudioClip as the sound source according to the interaction.
+
+
+
+
+
+
 
 
 UI
 添加下滑栏，设置单个项目对应的模型
 添加 Reset，一键清空场景
+Add a slide bar and set the model corresponding to a single project.
+Add Reset and clear the scene with one click.
+
+
+
+
+
+
+
 
 交互设置
 识别平面，在下滑栏中选择需要放置的物体
@@ -58,12 +81,53 @@ UI
 拖动模型实现移动，长按模型固定模型位置，再长按模型可解除固定
 双击模型播放声音
 点击 Reset 清空当前场景
+Identify the plane and select the object to be placed in the slide bar.
+Click the plane, and the model appears in the clicked position.
+Drag the model to move, long press the model to fix the position of the model, and then long press the model to remove the fixation.
+Double-click the model to play the sound
+Click Reset to clear the current scene.
+
+
+
+
+
+
+
+
 
 使用示例
 
 
 
+
+<img width="989" alt="1713879305393" src="https://github.com/jinZhiyi00/Fulture-Plants/assets/163079470/9095ef71-6699-46af-a5d2-beafe535f2de">
+
+![Uploading 1713879305393.png…]()
+
+
+
+
+
+
 出发点
+我想构想的是人类去中心化后植物的未来形态。
+这种形态可以是对人类审美中植物美学的反叛，可能人类偏爱饱满的花朵，它偏偏长了小花朵和大叶子。也可以是为了抵抗污染和破坏的形态进化。
+另一方面想做一个衍生的小项目，在前置摄像头想通过ar做出或许符合未来植物审美的人的样貌。思考未来植物反过来可能会对于人类的美学改造。
+这样，表现自然与人出现的荒诞失衡的关系。
+
+What I want to imagine is the future form of plants after human decentralization.
+
+This form can be a rebellion against plant aesthetics in human aesthetics. Maybe human beings prefer full flowers, which grow small flowers and large leaves. It can also be used to resist the evolution of pollution and destruction.
+
+On the other hand, if there is time, this is a derivative small project. The front camera wants to make the appearance of a person who may be in line with the aesthetics of plants in the future through ar. I will think about the future that plants may in turn transform the aesthetics of human beings, so as to show the absurd imbalance between nature and human beings.
+
+![a2e2c7ef02384111ea6c6797662f8a8](https://github.com/jinZhiyi00/Fulture-Plants/assets/163079470/a6dc4c92-4ab8-4bd0-8536-44e0303bdf6e)
+
+
+
+
+
+
 项目未来发展
 1植物建模的多元化趣味化，希望发展成一个未来植物库，为搭建植物沙盘带来更多选择。同时丰富同一种植物的不同形态，使其有着如同现实植物般的生长过程。
 2拓展曲库，增加植物的音效类型用来丰富植物乐器的种类
